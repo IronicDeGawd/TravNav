@@ -10,7 +10,7 @@ class MyBus extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
-          image: DecorationImage(image: AssetImage('asset/log2.png'))),
+          image: DecorationImage(image: AssetImage('asset/page-1/images/log2.png'))),
       child: Scaffold(
         backgroundColor: Colors.transparent,
         body: Padding(
