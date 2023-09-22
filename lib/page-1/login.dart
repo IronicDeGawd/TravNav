@@ -248,7 +248,7 @@ class _MyLoginState extends State<MyLogin> {
                       top: 0 * fem,
                       child: Container(
                         padding: EdgeInsets.fromLTRB(
-                            0 * fem, 0 * fem, 75 * fem, 0 * fem),
+                            0 * fem, 0 * fem, 65 * fem, 0 * fem),
                         width: 236 * fem,
                         height: 22 * fem,
                         decoration: BoxDecoration(
@@ -260,9 +260,9 @@ class _MyLoginState extends State<MyLogin> {
                             Container(
                               // rectangle7Yzd (2:185)
                               margin: EdgeInsets.fromLTRB(
-                                  0 * fem, 1 * fem, 9 * fem, 0 * fem),
-                              width: 21 * fem,
-                              height: 21 * fem,
+                                  0 * fem, 1 * fem, 0 * fem, 0 * fem),
+                              width: 15 * fem,
+                              // height: 21 * fem,
                               child: Image.asset(
                                 'assets/page-1/images/rectangle-7.png',
                                 width: 21 * fem,
@@ -363,22 +363,32 @@ class _MyLoginState extends State<MyLogin> {
               Container(
                 // line3ZRs (2:180)
                 margin:
-                    EdgeInsets.fromLTRB(157 * fem, 0 * fem, 157 * fem, 6 * fem),
+                    EdgeInsets.fromLTRB(150 * fem, 0 * fem, 150 * fem, 0 * fem),
                 width: double.infinity,
                 height: 1 * fem,
                 decoration: const BoxDecoration(
                   color: Color(0xff000000),
                 ),
               ),
-              SizedBox(
-                // logoremovebgpreview1fzh (404:49)
-                width: 357 * fem,
-                height: 231 * fem,
-                child: Image.asset(
-                  'assets/page-1/images/logo-removebg-preview-1.png',
-                  fit: BoxFit.cover,
+              Padding(
+                padding: const EdgeInsets.only(top: 0),
+                child: SizedBox(
+                  width: 400 * fem,
+                  // height: 262.5 * fem,
+                  child: Image.asset(
+                    'assets/page-1/images/logo-removebg-preview-3.png',
+                  ),
                 ),
               ),
+              // SizedBox(
+              //   // logoremovebgpreview1fzh (404:49)
+              //   width: 357 * fem,
+              //   height: 231 * fem,
+              //   child: Image.asset(
+              //     'assets/page-1/images/logo-removebg-preview-1.png',
+              //     fit: BoxFit.cover,
+              //   ),
+              // ),
             ],
           ),
         ),
